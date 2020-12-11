@@ -1,6 +1,6 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
-import Ga from '/pagic_template_docs/_ga.js';
-import Gitalk from '/pagic_template_docs/_gitalk.js';
+import projectConfig from '/my_docs/pagic.config.js';
+import Ga from '/my_docs/_ga.js';
+import Gitalk from '/my_docs/_gitalk.js';
 export default {
     'prev': undefined,
     'next': undefined,
@@ -19,7 +19,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/my_docs/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "Pagic template docs"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
